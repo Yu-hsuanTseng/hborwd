@@ -1,0 +1,368 @@
+/*初始設定*/
+html {
+    width: fit-content;
+    -webkit-font-smoothing: antialiased;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 3%;
+    align-items:center; 
+}
+
+.Line {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-color: #0C63A6;
+}
+
+.Line3 {
+    width: 20px;
+    height: 15px;
+    margin-right: 3%;
+}
+
+.Search{
+    display: flex;
+    align-items:center;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 18px;
+    padding: 6px;
+    margin-right: 25%;
+    background-color: #ffffff;
+}
+
+.SearchLogo {
+    width: 16px;
+    height: 17px;
+    margin-left: 3%;
+}
+
+.Enter {
+    border: none;
+    width: 80%;
+}
+
+.Logo {
+    margin-right:1020px;
+    margin-left: 30px;
+    width: 75px;
+    height: 70px;
+}
+
+.Sign {
+    color: #ffffff;
+    font-family: Segoe UI;
+    font-weight: 800;
+    text-decoration:none;
+    padding: 10px 20px;
+}
+.SignHover {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0E6EB8;
+}
+
+
+.Program {
+    width: 96%;
+    margin-left: 1%;
+    margin-top: 3%;
+    z-index: 0;
+    position:absolute;
+}
+
+.Background {
+    z-index: -1;
+    width: 60%;
+    position:absolute;
+    left: 40%;
+}
+
+.Follow {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    transform:rotate(90deg);
+    align-items: center;
+    right: 77%;
+    width: 400px;
+    z-index: 1;
+}
+
+.FollowT {
+    margin: 0;
+    color: #ffffff;
+    width: 120px;
+    height: 18px;
+    font-weight: 600;
+}
+
+.RLine {
+    width: 20%;
+}
+
+.Social {
+    transform:rotate(-90deg);
+    width: 25px;
+    height: 25px;
+    margin-left: 3%;
+    padding: 2px;
+}
+
+.SoHover {
+    border-style: solid;
+    border-color: #EB6136;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+
+.Get{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: #ffffff;
+    background-color: #0E6EB8;
+    border-style:solid #0E6EB8;
+    border-radius: 18px;
+    padding: 1% 3%;
+    cursor: pointer;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #EB6136;
+}
+
+.Foot1 {
+    display: flex;
+    justify-content:center;
+}
+
+.FooterW {
+    font-family: Segoe UI;
+    color: #ffffff;
+    text-transform:uppercase;
+    padding-right: 30px;
+}
+
+.FooterW2 {
+    color: #ffffff;
+    text-align:center;
+}
+
+.Black {
+    color: #ffffff;
+    background-color: black;
+}
+
+
+footer {
+    background-color: black;
+}
+
+header {
+    margin-left: 0;
+    width: 960px;
+}
+
+.Logo {
+    height: 50px;
+    width: 75px;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.Sign {
+    position: absolute;
+    right:30px;
+    
+}
+
+
+.Watchmen {
+    position: relative;
+    left: 180px;
+}
+.WatchmenImg {
+    position: absolute;
+    z-index: 0;
+    width: 900px;
+}
+.Play {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 50px;
+}
+
+p {
+    color: #ffffff;
+    font-family: Segoe UI;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Detail1 {
+    display: flex;
+    padding-top: 55%;
+    margin-left: 22%;
+    width: 840px;
+}
+
+.WatchmenT {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.LineW {
+    width: 150px;
+    margin-top: 5%;
+}
+
+.WatchmenT2 {
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+aside {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 850px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Detail2 {
+    margin-right: 150px;
+}
+
+.Detail2_w1 {
+    color: black;
+    font-size: 14px;
+    border-style:solid;
+    border-width: thin;
+    padding: 5px;
+    margin-bottom: 60px;
+}
+
+.Detail2_w2 {
+    color: black;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.STREAM {
+    margin-top:60px;
+    border-style: none;
+    background-color: #EB6136;
+    width: 150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 60px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.STHover{
+    background-color:#FFC31C;
+}
+
+
+
+
+.WatchmenImg2 {
+    width: 50%;
+}
+
+footer {
+    position: absolute;
+    top: 1350px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Muli);
+.snip1555 {
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-left: 130px;
+}
+.snip1555 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.snip1555 li a {
+  color: #fff;
+  text-decoration: none;
+}
+.snip1555 li:before,
+.snip1555 li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #EB6136;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.snip1555 li:before {
+  top: 0;
+  left: 0;
+}
+.snip1555 li:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before,
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  opacity: 1;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before {
+  left: 65%;
+}
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  right: 65%;
+}
+
+
+.Front {
+    z-index: 0;
+}
+
+.Star1{
+    position: absolute;
+    top: 100%;
+    left:0;
+    width:50%;
+    z-index: -1;
+}
+
+.Star2 {
+    position: absolute;
+    top: 60%;
+    right:0;
+    width:50%;
+    z-index: -1;
+}

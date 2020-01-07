@@ -1,0 +1,289 @@
+/*初始設定*/
+html {
+    width: fit-content;
+    -webkit-font-smoothing: antialiased;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    margin-top: 21px;
+    margin-left: 3%;
+    align-items:center; 
+}
+
+.Line {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-color: #0C63A6;
+}
+
+.Line3 {
+    width: 20px;
+    height: 15px;
+    margin-right: 35px;
+}
+
+.Line3_in {
+    width: 20px;
+    height: 15px;
+    margin-top:29px;
+    margin-left:36px;
+}
+
+.FloatHB:hover .FloatHB_in{
+    display:block;
+}
+
+.FloatHB_in {
+    display: none;
+    position: absolute;
+    color:white;
+    border-style: solid;
+    border-color: #EB6136;
+    background-color: black;
+    width: 220px;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+
+.LiHover {
+    background-color: #FFC31C;
+}
+
+.search{
+    display: flex;
+    align-items:center;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 18px;
+    padding: 6px;
+    margin-right: 25%;
+    background-color: #ffffff;
+}
+
+.searchLogo {
+    width: 16px;
+    height: 17px;
+    margin-left: 3%;
+}
+
+.enter {
+    border: none;
+    width: 80%;
+}
+
+
+.Logo {
+    height: 40px;
+    margin-right: 37%;
+}
+
+.Sign {
+    color: #ffffff;
+    font-family: Segoe UI;
+    font-weight: 800;
+    text-decoration:none;
+    padding: 10px 20px;
+}
+
+.SignHover {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0E6EB8;
+}
+
+/* program */
+.ProgramTop {
+    z-index: 2;
+    width: 26%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+
+.program {
+    position:absolute;
+    z-index: 1;
+    left: 70%;
+}
+
+.program_img {
+    width: 300px;
+}
+
+.tonightOn {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Follow {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    transform:rotate(90deg);
+    align-items: center;
+    right: 77%;
+    width: 400px;
+    z-index: 1;
+}
+
+.FollowT {
+    margin: 0;
+    color: #ffffff;
+    width: 120px;
+    height: 18px;
+    font-weight: 600;
+    font-family: Segoe UI;
+    margin-bottom: 2%;
+}
+
+.RLine {
+    color: #EB6136;
+}
+
+.Social {
+    transform:rotate(-90deg);
+    width: 25px;
+    height: 25px;
+    margin-left: 3%;
+    padding: 2px;
+}
+
+.SoHover {
+    border-style: solid;
+    border-color: #EB6136;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+
+.Get{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: #ffffff;
+    background-color: #0E6EB8;
+    border-style:solid #0E6EB8;
+    border-radius: 18px;
+    padding: 1% 3%;
+    cursor: pointer;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: 800;
+}
+
+/* footer */
+
+footer {
+    background-color: #EB6136;
+    margin-top:10%;
+}
+
+.Foot1 {
+    display: flex;
+    justify-content:center;
+}
+
+.FooterW {
+    font-family: Segoe UI;
+    color: #ffffff;
+    text-transform:uppercase;
+    padding-right: 30px;
+}
+
+.FooterW2 {
+    color: #ffffff;
+    text-align:center;
+}
+
+.Black {
+    color: #ffffff;
+    background-color: #FFC31C;
+}
+
+
+
+
+/* 1229 */
+.article_img {
+    width: 240px;
+}
+
+.custom-gutters {
+    padding-left: 30%;
+}
+
+#carouselExampleSlidesOnly {
+    background-color: black;
+}
+
+#about {
+    background-color: #000000;
+}
+
+.a_Text {
+    color: white;
+    font-size: 12px;
+}
+
+/* .hidden {
+    display:block;
+} */
+
+.humbager {
+    background-color: #0E6EB8;
+}
+
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+@media (min-width: 980px) {
+    .hidden {
+        display: none;
+    }
+    .appear {
+        display:block;
+    }
+    .a_Text {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden {
+        display:block;
+    }
+    .appear {
+        display:none;
+    }
+    .a_Text {
+        font-size: 12px;
+    }
+}

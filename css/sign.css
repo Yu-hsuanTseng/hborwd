@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top:5px;
+}
+
+.Logo {
+    margin-right:1020px;
+    margin-left: 30px;
+    width: 75px;
+}
+
+.SignGet {
+    font-weight: 800;
+    padding:10px 20px;
+}
+
+.Center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    border-style: solid;
+    border-color: #EB6136;
+    border-width: 3px;
+    background-color: black;
+    width: 380px;
+}
+
+.SignIMG {
+    width: 50%;
+    margin-left: 95px;
+    margin-top:20px;
+    margin-bottom: 20px;;
+}
+
+.Box {
+    display:flex;
+    border-style: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 135px;
+    height: 40px;
+    align-items: center;
+}
+
+.Icon{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.Enter {
+    width: 100px;
+    border-style: none;
+}
+
+.Fence {
+    margin-left: 35px;
+}
+
+.Enter2 {
+    width: 280px;
+    border-style: none;
+}
+
+.Box2 {
+    display:flex;
+    border-style: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 307px;
+    height: 40px;
+    align-items: center;
+}
+
+.Fence2 {
+    margin-left: 35px;
+    margin-top:20px;
+}
+
+
+.Help {
+    font-size: 10px;
+}
+
+p {
+    margin: 0;
+    font-family: Segoe UI;
+    color: #ffffff;
+}
+
+.Buttom {
+    border-style:none;
+    border-radius: 13px;
+    background-color: #EB6136;
+    width: 111px;
+    height: 30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+
+.Member {
+    display:flex;
+    align-items:center;
+    margin-left: 120px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #EB6136;
+    font-family: Segoe UI;
+}
+
+.LogHover {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0E6EB8;
+}
+
+
+.SignHover {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0E6EB8;
+}
+
+
+@media (max-width : 990px){
+    .Center {
+        margin-left: 45%;
+    }
+    
+}
+
+@media (max-width : 600px){
+    .Center {
+        margin-left: 70%;
+    }
+    
+}

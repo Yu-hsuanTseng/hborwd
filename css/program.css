@@ -1,0 +1,145 @@
+html {
+    background-color: black;
+}
+
+/* header */
+header {
+    background-color: black;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 15%;
+    margin-top:15%;
+}
+
+.a_style {
+    text-decoration:none;
+    color:white;   
+}
+
+.t_h {
+    color:white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+/* 內容 */
+.t_a {
+    color:white;
+    font-weight: bolder;
+}
+
+aside {
+    background:black;
+}
+
+.side1 {
+    width:68%;
+    position: absolute;
+    left:21%;
+    top:17.5%;
+    font-size:12px;
+}
+
+.side1 .col a {
+    font-size:9.5px;
+}
+
+.side2 {
+    width:13%;
+    position: absolute;
+    top:23.5%;
+    left:16%;
+    font-size:14px;
+}
+
+article {
+    background:black;
+}
+
+.side3 {
+    position: absolute;
+    left:6%;
+    top:23.5%;
+}
+
+.program_roll {
+    overflow-x: auto;
+}
+
+.program_inside {
+    width: 910px;
+}
+
+/* footer */
+footer {background-color: black;}
+
+.t_f {
+    color: white;
+    border: #EB6136;
+    border-style:solid;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.aa{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.side4 {
+    position: absolute;
+    top:480px;
+    left:5.5%;
+}
+
+
+
+/* 側邊浮動 */
+
+.Follow {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    transform:rotate(90deg);
+    align-items: center;
+    right: 77%;
+    width: 400px;
+    z-index: 1;
+}
+
+.FollowT {
+    margin: 0;
+    color: #ffffff;
+    width: 120px;
+    height: 18px;
+    font-weight: 600;
+    font-family: Segoe UI;
+    margin-bottom: 2%;
+}
+
+.RLine {
+    color: #EB6136;
+}
+
+.Social {
+    transform:rotate(-90deg);
+    width: 25px;
+    height: 25px;
+    margin-left: 3%;
+    padding: 2px;
+}
+
+.SoHover {
+    border-style: solid;
+    border-color: #EB6136;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+
+
